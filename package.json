@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-bayan/lab27/issues"
   },
-  "homepage": "https://bayanmhmd.github.io/401-advanced-javascript-bayan/lab27",
+  "homepage": "https://bayanmhmd.github.io/401-advanced-javascript-bayan/lab27/",
   "dependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
