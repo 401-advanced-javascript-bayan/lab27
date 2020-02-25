@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/401-advanced-javascript-bayan/lab27/static/css/main.fb354af3.chunk.css",
+    "main.js": "/401-advanced-javascript-bayan/lab27/static/js/main.e2ea6d32.chunk.js",
+    "main.js.map": "/401-advanced-javascript-bayan/lab27/static/js/main.e2ea6d32.chunk.js.map",
+    "runtime-main.js": "/401-advanced-javascript-bayan/lab27/static/js/runtime-main.246d07ee.js",
+    "runtime-main.js.map": "/401-advanced-javascript-bayan/lab27/static/js/runtime-main.246d07ee.js.map",
+    "static/js/2.344b3e7f.chunk.js": "/401-advanced-javascript-bayan/lab27/static/js/2.344b3e7f.chunk.js",
+    "static/js/2.344b3e7f.chunk.js.map": "/401-advanced-javascript-bayan/lab27/static/js/2.344b3e7f.chunk.js.map",
+    "index.html": "/401-advanced-javascript-bayan/lab27/index.html",
+    "precache-manifest.5717be4309e2f7ddc70c6a1220ba6db3.js": "/401-advanced-javascript-bayan/lab27/precache-manifest.5717be4309e2f7ddc70c6a1220ba6db3.js",
+    "service-worker.js": "/401-advanced-javascript-bayan/lab27/service-worker.js",
+    "static/css/main.fb354af3.chunk.css.map": "/401-advanced-javascript-bayan/lab27/static/css/main.fb354af3.chunk.css.map",
+    "static/js/2.344b3e7f.chunk.js.LICENSE.txt": "/401-advanced-javascript-bayan/lab27/static/js/2.344b3e7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.246d07ee.js",
+    "static/js/2.344b3e7f.chunk.js",
+    "static/css/main.fb354af3.chunk.css",
+    "static/js/main.e2ea6d32.chunk.js"
+  ]
+}
