@@ -29,8 +29,8 @@ class Main extends React.Component {
     return (
       <section>
         <h3>{this.state.ctr}</h3>
-        <button class = "one" onClick={this.handleClick1}>n+1</button>
-        <button class = "two" onClick={this.handleClick2}>n-1</button>
+        <button className = "one" onClick={this.handleClick1}>n+1</button>
+        <button className = "two" onClick={this.handleClick2}>n-1</button>
       </section>
     )
   }

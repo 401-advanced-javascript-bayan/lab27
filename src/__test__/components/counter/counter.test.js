@@ -20,9 +20,5 @@ describe('Testing our Counter component', () => {
         expect(button).toBeDefined();
         expect(app.state('ctr')).toBe(0);
     });
-    it('render correctly to the DOM', () => {
-        const renderTree = renderer.create(<Counter />).toJSON();
-        expect(renderTree).toMatchSnapshot();
-    });
-   
+      
 });
