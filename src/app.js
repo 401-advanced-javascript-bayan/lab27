@@ -1,3 +1,7 @@
+/* eslint-disable indent */
+  /* eslint-disable react/no-unknown-property */
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 import React from 'react';
 import './app.scss';
 

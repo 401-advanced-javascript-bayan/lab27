@@ -17,3 +17,23 @@ exports[`<Thing /> renders correctly 1`] = `
   </button>
 </section>
 `;
+
+exports[`Testing our Counter component render correctly to the DOM 1`] = `
+<section>
+  <h3>
+    0
+  </h3>
+  <button
+    class="one"
+    onClick={[Function]}
+  >
+    n+1
+  </button>
+  <button
+    class="two"
+    onClick={[Function]}
+  >
+    n-1
+  </button>
+</section>
+`;

@@ -1,8 +1,9 @@
+/* eslint-disable semi */
 import React from 'react'
 const Header = () => {
   return (
     <header className="words-app">
-      <h1>my counter</h1>
+      <h1>Integer Numbers Counter</h1>
     </header>
   )
 }

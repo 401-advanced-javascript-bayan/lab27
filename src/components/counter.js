@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 import React from 'react'
 
 class Main extends React.Component {
@@ -26,8 +29,8 @@ class Main extends React.Component {
     return (
       <section>
         <h3>{this.state.ctr}</h3>
-        <button onClick={this.handleClick1}>click for counter</button>
-        <button onClick={this.handleClick2}>click for counter</button>
+        <button class = "one" onClick={this.handleClick1}>n+1</button>
+        <button class = "two" onClick={this.handleClick2}>n-1</button>
       </section>
     )
   }

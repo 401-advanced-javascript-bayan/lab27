@@ -1,38 +1,33 @@
 {
-  "name": "lab27",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "name": "myapp2",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "react-test-renderer": "^16.13.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint '**/*.js'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/401-advanced-javascript-bayan/lab27.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/401-advanced-javascript-bayan/lab27/issues"
-  },
-  "homepage": "https://bayanmhmd.github.io/lab27/",
-  "dependencies": {
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-jsonschema-form": "^1.8.1",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.0",
-    "react-test-renderer": "^16.12.0"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [

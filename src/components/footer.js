@@ -1,10 +1,11 @@
+/* eslint-disable semi */
   
 import React from 'react'
 
 
 const Footer = () => {
   return (
-    <footer>my cool footer</footer>
+    <footer>@ Cool Math</footer>
   )
 };
 
