@@ -1,18 +1,8 @@
 {
-  "name": "so-cool-app",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "/",
-  "dependencies": {
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "eslint": "^6.8.0",
-    "gh-pages": "^2.2.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
-  },
+  "name": "rect-app-lab27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -22,8 +12,29 @@
     "deploy": "gh-pages -d build",
     "lint": "eslint '**/*.js'"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Mai/rect-app-lab27.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-bayan/lab27/issues"
+  },
+  "homepage": "https://bayanmhmd.github.io/lab27/",
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-jsonschema-form": "^1.8.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-test-renderer": "^16.12.0"
   },
   "browserslist": {
     "production": [
