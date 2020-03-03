@@ -1,46 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-<<<<<<< HEAD
-exports[`</> renders correctly 1`] = `
-<section>
-  <h3>
-    0
-  </h3>
-  <button
-    className="one"
-    onClick={[Function]}
-  >
-    n+1
-  </button>
-  <button
-    className="two"
-    onClick={[Function]}
-  >
-    n-1
-  </button>
-</section>
-`;
-
-exports[`<Counnter/> renders correctly 1`] = `
-<section>
-  <h3>
-    0
-  </h3>
-  <button
-    className="one"
-    onClick={[Function]}
-  >
-    n+1
-  </button>
-  <button
-    className="two"
-    onClick={[Function]}
-  >
-    n-1
-  </button>
-</section>
-`;
-
 exports[`<Counter/> renders correctly 1`] = `
 <section>
   <h3>
@@ -54,47 +13,6 @@ exports[`<Counter/> renders correctly 1`] = `
   </button>
   <button
     className="two"
-    onClick={[Function]}
-  >
-    n-1
-  </button>
-</section>
-`;
-
-exports[`<Thing /> renders correctly 1`] = `
-=======
-exports[`<counter/> renders correctly 1`] = `
->>>>>>> 3b502414a8afacbec2e3a39649b3fbf0c747ad82
-<section>
-  <h3>
-    0
-  </h3>
-  <button
-    onClick={[Function]}
-  >
-    click for counter
-  </button>
-  <button
-    onClick={[Function]}
-  >
-    click for counter
-  </button>
-</section>
-`;
-
-exports[`Testing our Counter component render correctly to the DOM 1`] = `
-<section>
-  <h3>
-    0
-  </h3>
-  <button
-    className ="one"
-    onClick={[Function]}
-  >
-    n+1
-  </button>
-  <button
-    className ="two"
     onClick={[Function]}
   >
     n-1
