@@ -1,5 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`</> renders correctly 1`] = `
+<section>
+  <h3>
+    0
+  </h3>
+  <button
+    className="one"
+    onClick={[Function]}
+  >
+    n+1
+  </button>
+  <button
+    className="two"
+    onClick={[Function]}
+  >
+    n-1
+  </button>
+</section>
+`;
+
+exports[`<Counnter/> renders correctly 1`] = `
+<section>
+  <h3>
+    0
+  </h3>
+  <button
+    className="one"
+    onClick={[Function]}
+  >
+    n+1
+  </button>
+  <button
+    className="two"
+    onClick={[Function]}
+  >
+    n-1
+  </button>
+</section>
+`;
+
+exports[`<Counter/> renders correctly 1`] = `
+<section>
+  <h3>
+    0
+  </h3>
+  <button
+    className="one"
+    onClick={[Function]}
+  >
+    n+1
+  </button>
+  <button
+    className="two"
+    onClick={[Function]}
+  >
+    n-1
+  </button>
+</section>
+`;
+
 exports[`<Thing /> renders correctly 1`] = `
 <section>
   <h3>

@@ -1,24 +1,36 @@
+/* eslint-disable no-undef */
 /* eslint-disable indent */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable comma-dangle */
 /* eslint-disable semi */
-import React from 'react';
-import Enzyme, { shallow, mount } from 'enzyme';
+// import React from 'react';
+// import Enzyme, { shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+// import renderer from 'react-test-renderer';
+// import Counter from '../../../components/counter.js'
+// Enzyme.configure({ adapter: new Adapter() });
+import React from 'react';
+import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import Counter from '../../../components/counter.js'
-Enzyme.configure({ adapter: new Adapter() });
-describe('Testing our Counter component', () => {
-    it('exists at the start of the app', () => {
-        let app = shallow(<Counter />);
-        expect(app.find('h3').exists()).toBeTruthy();
-    })
-    it('Counter renders', () => {
-        let app = mount(<Counter />);
-        let button = app.find('button');
-        expect(button).toBeDefined();
-        expect(app.state('ctr')).toBe(0);
-    });
-      
+import Counter from '../../../components/counter.js';
+
+describe('<Counter/>', () => {
+  it('exists at the start of our application', () => {
+    // let app = shallow(<Counter />);
+    // expect(app.find('h3').exists()).toBeTruthy();
+  });
+
+  it('changes the state on click', ()=> {
+    // let app = mount(<Counter />);
+    // let button = app.find('.one');
+    // button.simulate('click');
+    // expect(app.state('count')).toBeTruthy();
+    // expect(app.find('span').text()).toContain('false');
+  });
+
+  it('renders correctly', () => {
+    // const tree = renderer.create(<Counter />).toJSON();
+    // expect(tree).toMatchSnapshot();
+  })
 });
