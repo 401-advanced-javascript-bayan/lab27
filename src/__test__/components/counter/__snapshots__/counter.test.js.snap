@@ -1,5 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+<<<<<<< HEAD
 exports[`</> renders correctly 1`] = `
 <section>
   <h3>
@@ -61,6 +62,9 @@ exports[`<Counter/> renders correctly 1`] = `
 `;
 
 exports[`<Thing /> renders correctly 1`] = `
+=======
+exports[`<counter/> renders correctly 1`] = `
+>>>>>>> 3b502414a8afacbec2e3a39649b3fbf0c747ad82
 <section>
   <h3>
     0
@@ -84,13 +88,13 @@ exports[`Testing our Counter component render correctly to the DOM 1`] = `
     0
   </h3>
   <button
-    class="one"
+    className ="one"
     onClick={[Function]}
   >
     n+1
   </button>
   <button
-    class="two"
+    className ="two"
     onClick={[Function]}
   >
     n-1
